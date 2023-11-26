@@ -10,5 +10,6 @@ resource "aws_instance" "frist_ec2_instance" {
 	vpc_security_group_ids = ["sg-048d6ba61a0bdc23d"]
 	tags = {
 		Name = "TerraformInstance"
+		Purpose = "test Terraform"
 	}
 }
